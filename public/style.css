@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+body,html{height:100%;background-color:#000;display:flex;justify-content:center;align-items:center}
+.container{background:#1a1a1a;border-radius:20px;padding:40px 30px;width:90%;max-width:500px;box-shadow:0 10px 30px rgba(0,0,0,0.7);text-align:center;opacity:0;transform:translateY(30px);animation:fadeInUp 1s forwards;animation-delay:0.5s}
+@keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}
+h1{font-size:2rem;background:linear-gradient(90deg,#ff8a00,#e52e71);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:20px;transition:all 1s ease}
+p{font-size:1rem;color:#ccc;margin-bottom:30px;opacity:0;transform:translateY(20px);animation:fadeInUpText 1s forwards;animation-delay:1.5s}
+@keyframes fadeInUpText{to{opacity:1;transform:translateY(0)}}
+form{display:flex;flex-direction:column;gap:15px;opacity:0;transform:scale(0.95);animation:fadeInForm 1s forwards;animation-delay:2.5s}
+@keyframes fadeInForm{to{opacity:1;transform:scale(1)}}
+input,textarea{padding:12px 15px;border-radius:10px;border:1px solid #444;background-color:#222;color:#fff;outline:none;font-size:1rem;transition:all 0.3s ease}
+input::placeholder,textarea::placeholder{color:#888}
+input:focus,textarea:focus{border-color:#66a6ff;box-shadow:0 0 10px rgba(102,166,255,0.3)}
+button{padding:12px 20px;border:none;border-radius:10px;background:linear-gradient(90deg,#ff8a00,#e52e71);color:white;font-size:1rem;cursor:pointer;transition:all 0.3s ease}
+button:hover{transform:translateY(-2px);box-shadow:0 5px 15px rgba(0,0,0,0.5)}
+footer{margin-top:30px;font-size:0.8rem;color:#666;opacity:0;animation:fadeInFooter 1s forwards;animation-delay:3.5s}
+@keyframes fadeInFooter{to{opacity:1}}
+@media(max-width:480px){.container{padding:30px 20px}h1{font-size:1.5rem}p{font-size:0.9rem}}
