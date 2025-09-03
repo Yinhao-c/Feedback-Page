@@ -2,7 +2,6 @@
 
 **A silky smooth feedback page with Node.js backend, fully responsive and visually appealing.**
 
-![Feedback Page Screenshot](screenshot-placeholder.png)
 
 ---
 
@@ -42,3 +41,23 @@ cd Feedback-Page
 ```bash
 npm install
 ```
+
+3.Start the server:
+
+```bash
+node server.js
+```
+
+4.Open your browser at:
+
+```bash
+http://localhost:3000
+```
+
+
+## 🖤 Aesthetic Details
+
+- Gradient Welcome Text: Vibrant orange-pink gradient to catch attention.  
+- Fade-in Animations: Container, text, form, and footer appear progressively.  
+- Interactive Form: Inputs highlight on focus, button reacts on hover.  
+- Dark Theme: Black background with slightly lighter card, soft shadows.
