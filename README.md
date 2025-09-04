@@ -1,4 +1,4 @@
-# SmoothFeedback
+# Feedback
 
 **A silky smooth feedback page with Node.js backend, fully responsive and visually appealing.**
 
